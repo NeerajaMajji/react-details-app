@@ -1,0 +1,74 @@
+.on-top-container{
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height:100vh;
+}
+.down-container{
+    background-color:#cffafe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 18px;
+}
+.heading{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color:#0f172a;
+}
+@media Screen and (min-width:768px){
+    .heading{
+        font-size: 64px;
+    }
+}
+@media Screen and (min-width:768px){
+    .down-container{
+        width: 50%;
+        padding: 48px;
+        margin-top: 24px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .down-container {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .down-container {
+      width: 30%;
+    }
+  }
+  .user-profile{
+    width: 145px;
+    height: 145px;
+  }
+  .card-title {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .card-description{
+    text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    .card-description {
+      font-size: 18px;
+    }
+  }
+  
+  .gift-image {
+    margin-top: 24px;
+  }

@@ -1,0 +1,13 @@
+.App-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home{
+    margin-right: 40px;
+}
+.stopwatch{
+    margin-right: 40px;
+}
+.registration{
+    margin-right: 40px;
+}

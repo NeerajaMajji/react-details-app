@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="on-top-container">
+     <h1 className='heading'>Super Over Leauge</h1>
+     <div className='image-container'>
+      <img className='logo-image' src='https://assets.ccbp.in/frontend/react-js/rcb-img.png'></img>
+      <img className='logo-image' src='https://assets.ccbp.in/frontend/react-js/csk-img.png'></img>
+     </div>
     </div>
   );
 }

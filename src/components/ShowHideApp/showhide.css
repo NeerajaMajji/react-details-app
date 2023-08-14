@@ -1,0 +1,36 @@
+.btn-cls{
+    display: flex;
+    flex-direction: row;
+}
+.on-top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc63a7;
+    height: 100vh;
+}
+button{
+    color: #dd1264;
+    background-color: #ffff;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #ffff;
+    margin: 10px;
+    border-radius: 8px;
+}
+.pop-up{
+    background-color: #fddddb;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+}
+.heading{
+    color: #ffff;
+    font-size: 50px;
+    font-family: 'Roboto';
+}

@@ -1,0 +1,38 @@
+.card-1{
+    border: 5px solid #ff4f64;
+    margin: 10px;
+}
+.card-2 {
+    border: 5px solid #00a8e7;
+    margin: 10px;
+  }
+  
+  .card-3 {
+    border: 5px solid #44c4a1;
+    margin: 10px;
+  }
+  
+  .card-4 {
+    border: 5px solid #fcc200;
+    margin: 10px;
+  }
+  .on-top-container{
+    max-width: 400px;
+  }
+  .cards-app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4faff;
+  }
+  .card-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    max-width: 1100px;
+    padding-left: 0px;
+  }

@@ -1,0 +1,28 @@
+.dark-mode{
+    background-color: #000000;
+    color: #ffff;
+}
+.light-mode{
+    background-color: #ffff;
+    border: 2px solid #000000;
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+.above-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border: 2px solid #000000;
+    padding: 14px;
+    border-radius: 8px;
+
+}

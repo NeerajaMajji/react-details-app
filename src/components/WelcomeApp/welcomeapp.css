@@ -1,0 +1,29 @@
+.whole-container{
+    background-color:#1e293b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heading{
+    color: #f0bb03;
+    font-size: 64px;
+    font-family: 'Bree Serif';
+    margin: 0px;
+}
+.greeting-msg{
+    color: #ffff;
+    font-size: 32px;
+    font-family: 'Bree Serif';
+}
+.btn{
+    margin-top: 10px;
+    color: #1e293b;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-weight:600;
+    cursor: pointer;
+}

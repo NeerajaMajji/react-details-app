@@ -1,0 +1,82 @@
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbd2d9;
+    height: 100vh;
+}
+.heading2{
+    font-size: 32px;
+    font-family: 'Roboto';
+    color: #ea580c;
+}
+.form-container{
+background-color: #ffffff;
+padding-left:100px;
+padding-right:100px;
+border-radius: 5px;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+.first-name-input{
+    width: 200px;
+
+}
+.last-name-input{
+    width: 200px;
+
+}
+.button-container{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.submit-btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ea580c;
+    cursor: pointer;
+
+}
+.required-field{
+    color:#ff0b37
+}
+.success-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.success-msg{
+    font-size: 28px;
+}
+.success-img{
+    height: 50px;
+    width: 50px;
+}
+@media screen and (max-width:768px){
+    .heading2{
+        font-size: 16px;
+    }
+    .form-container{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left:60px;
+        padding-right:60px;
+    }
+    .first-name-heading{
+        font-size: 12px;
+    }
+    .last-name-heading{
+        font-size: 12px;
+    }
+    .first-name-input{
+        font-size: 10px;
+    }
+    .last-name-input{
+        font-size: 10px;
+    }
+}

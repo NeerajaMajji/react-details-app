@@ -1,0 +1,22 @@
+.whole-emotions{
+      display: flex;
+      flex-direction: column;
+      background-color: #ffc0bb;
+      height: 100vh;
+}
+.btn-emojis{
+    margin-right: 30px;
+}
+.response{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
+.heart-image{
+    height: 30px;
+    width: 30px;
+
+}
+.happysad{
+    display: flex;
+}

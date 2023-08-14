@@ -1,0 +1,30 @@
+.fruits-container{
+    display: flex;
+    /* flex-direction: column; */
+}
+img{
+    height: 80%;
+    width: 30%;
+}
+.mango-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banana-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 64px;
+}
+.whole-container{
+    
+}
+.fruit-color{
+    color: #ffd569;
+}

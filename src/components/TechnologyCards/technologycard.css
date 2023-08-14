@@ -1,0 +1,10 @@
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.heading{
+    padding: 10px;
+}
+.description{
+    padding: 10px;
+}

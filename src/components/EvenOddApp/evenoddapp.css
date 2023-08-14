@@ -1,0 +1,23 @@
+.on-top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: linear-gradient(#ff6e7f, #bfe9ff);
+    height: 100vh;
+}
+.my-heading{
+    color:#0f172a;
+    font-size: 52px;
+    margin: 0px;
+}
+.even-odd{
+    color: #334155;
+    font-size: 32px;
+}
+.btn-handle{
+    padding: 10px;
+    outline: none;
+    border: #ffff;
+    border-radius: 8px;
+}

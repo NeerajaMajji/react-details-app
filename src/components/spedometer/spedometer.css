@@ -1,0 +1,19 @@
+.spedo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://assets.ccbp.in/frontend/react-js/speedometer-img.png");
+    background-size: cover; */
+    
+}
+.btn-accel{
+    margin-right: 10px;
+}
+/* .heading{
+    color:#ffffff
+
+}
+.speed-bar{
+    color: #ffffff;
+} */
